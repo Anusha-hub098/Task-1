@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $title = $_POST['title'];
     $content = $_POST['content'];
     $conn->query("INSERT INTO posts (title, content) VALUES ('$title', '$content')");
-    header("Location: index.php");
+    header("Location: index1.php");
 }
 ?>
 <!DOCTYPE html>
